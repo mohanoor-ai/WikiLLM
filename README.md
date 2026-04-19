@@ -13,7 +13,15 @@ WikiLLM is a private, local-first project built using **LlamaIndex**. It indexes
 - **Models**: TinyLlama & BGE-Small
 - **Data Source**: Wikipedia API
 
-## 🔧 Setup & Usage
-1. Install dependencies:
-   `pip install llama-index llama-index-embeddings-huggingface llama-index-llms-huggingface transformers wikipedia-api torch`
-2. Run `WikiLLM.ipynb` to download data and build your local index.
+## 🔧 Usage
+
+### 1. Setup & Research (Jupyter)
+Open `WikiLLM.ipynb` in VS Code to initialize the environment. Use this notebook to:
+* **Test the LLM setup** and ensure your hardware is running correctly.
+* **Acquire Data**: Run the Wikipedia cells to download your knowledge base into `./data`.
+* **Validate RAG**: Check the response times and factual accuracy of the model.
+
+### 2. Live Chat (Terminal)
+Once your data is downloaded, you can skip the notebook and **run the chat locally** via the terminal:
+```bash
+python wikichat.py
