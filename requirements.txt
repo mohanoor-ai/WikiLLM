@@ -1,0 +1,8 @@
+llama-index
+llama-index-embeddings-huggingface
+llama-index-llms-huggingface
+transformers
+accelerate
+bitsandbytes
+wikipedia-api
+torch
